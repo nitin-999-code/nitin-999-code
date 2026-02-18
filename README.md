@@ -1,19 +1,17 @@
-<!-- MULTILINGUAL NAME ANIMATION (Left-Aligned, No Big Gap) -->            
-<div style="text-align: left; margin-left: 40px; margin-top: 20px; margin-bottom: 5px;">               
-<img              
-    src="https://readme-typing-svg.herokuapp.com?          font=Orbitron&weight=900&size=22&duration=2500&pause=800&color=00D9FF&background=00000000&vCenter=true&width=800&height=45&lines=NITIN+SAHU;नितिन+साहू;尼丁+萨胡;ニティン+サフ;니틴+사후;Нитин+Саху" 
-    alt="Multilingual Name" 
-  />  
-</div>    
-  
-<!-- SIMPLE ELEGANT SUBTITLE (Left-Aligned, Closer to Name) -->
-<div style="text-align: left; margin-left: 40px; margin-top: -10px;">
+<div align="center">
+
+<div align="center">
   <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=20&duration=3000&pause=1500&color=FF6B35&background=00000000&vCenter=true&width=600&height=40&lines=Welcome+to+My+Digital+Universe;Computer+Science+Engineering+Student;Passionate+Full+Stack+Developer;Always+Learning+%26+Growing;⚡+Turning+Ideas+Into+Reality!"
-    alt="Simple Title"
+    src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=24&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=NITIN+SAHU;नितिन+साहू;尼丁+萨胡;ニティン+サフ;니틴+사후;Нитин+Саху" 
   />
 </div>
 
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1200&color=FF6B35&center=true&vCenter=true&width=700&lines=Turning+Ideas+Into+Reality;Learning.+Building.+Scaling.;Code+With+Purpose"/>
+
+</div>
+
+---
 
 <!-- Typing Animation -->
 <div align="center">
@@ -106,20 +104,20 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="32px"> **GitHub Analytics**
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=nitin-999-code&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitin-999-code&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
-      </td>
-      <td>
-        <img src="https://streak-stats.demolab.com?user=nitin-999-code&theme=tokyonight&hide_border=true" height="180"/>
-      </td>
-    </tr>
-  </table>
+
+<img width="420"
+ src="https://YOUR-VERCEL-URL/api?username=nitin-999-code&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img width="320"
+ src="https://YOUR-VERCEL-URL/api/top-langs/?username=nitin-999-code&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<br/>
+
+<img width="420"
+ src="https://streak-stats.demolab.com?user=nitin-999-code&theme=tokyonight&hide_border=true"/>
+
 </div>
+
 </div>
 
  
