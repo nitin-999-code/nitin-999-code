@@ -113,8 +113,7 @@
 
 <br/>
 
-<img width="420"
- src="https://streak-stats.demolab.com?user=nitin-999-code&theme=tokyonight&hide_border=true"/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=nitin-999-code&theme=radical&cache_seconds=1)](https://git.io/streak-stats)
 
 </div>
 
