@@ -45,8 +45,6 @@
 <!-- https://astoryisnotatree.net/wp-content/uploads/2018/02/Evil_Iz_Gif21.gif -->
 
 
-- 🔭 **Currently working on:** Full-stack web applications with React & Node.js
-- 🌱 **Learning:** MongoDB, Express.js, and advanced React patterns
 - 👯 **Looking to collaborate on:** Open source projects and innovative web solutions
 - 🤔 **Ask me about:** React, JavaScript, Web Development, and Problem Solving
 - 💬 **Fun fact:** I love turning coffee into code! ☕➡️💻
