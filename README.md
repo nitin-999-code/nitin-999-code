@@ -66,10 +66,10 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/nitin-sahu-a1b663323"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="40"/></a>&nbsp;
-<a href="mailto:nitin.sahu9777@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="40"/></a>&nbsp;
+
+
 <a href="https://discord.gg/nitinsahu0621"><img src="https://skillicons.dev/icons?i=discord&theme=dark" width="40"/></a>&nbsp;
-<a href="https://instagram.com/i_am_nitin999"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="40"/></a>&nbsp;
+
 <a href="https://leetcode.com/ozzy_999"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="40"/></a>&nbsp;
 <a href="https://codechef.com/users/ozzy_999"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="40"/></a>&nbsp;
 <a href="https://codeforces.com/profile/ns0779687"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="40"/></a>
