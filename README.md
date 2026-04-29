@@ -41,7 +41,7 @@
 
 
 
-<img align="right" alt="Coding" width="300" src="https://media.tenor.com/x-UUAYn6NpIAAAAM/%D0%B034.gif"><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Hey there! I'm Nitin Sahu
+<img align="right" alt="Coding" width="250" src="https://media.tenor.com/x-UUAYn6NpIAAAAM/%D0%B034.gif"><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Hey there! I'm Nitin Sahu
 <!-- https://astoryisnotatree.net/wp-content/uploads/2018/02/Evil_Iz_Gif21.gif -->
 
 
@@ -55,28 +55,10 @@
 <!-- Tech Stack with Animations -->
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"> **Technologies & Tools**
 
-<div align="center">
-<div style="display: inline-flex; gap: 6px; flex-wrap: wrap; justify-content: center;">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=fff" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=fff" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=fff" />
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff" />
-  <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=fff" />
-</div>
-</div>
 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,html,css,react,nextjs,tailwind,bootstrap,nodejs,express,mongodb,mysql,postgres,prisma,supabase,git,github,vscode,postman,docker&theme=dark&perline=12"/>
+</div>
 <br/>
 
 <!-- Connect with Me -->
@@ -84,17 +66,16 @@
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nitinsahu0621)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nitin-sahu-a1b663323)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/i_am_nitin999)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nitin.sahu9777@gmail.com)
-
-### 🏆 **Competitive Programming**
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/ozzy_999)
-[![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white)](https://codeforces.com/profile/ns0779687)
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://www.leetcode.com/ozzy_999)
+<a href="https://linkedin.com/in/nitin-sahu-a1b663323"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="40"/></a>&nbsp;
+<a href="mailto:nitin.sahu9777@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="40"/></a>&nbsp;
+<a href="https://discord.gg/nitinsahu0621"><img src="https://skillicons.dev/icons?i=discord&theme=dark" width="40"/></a>&nbsp;
+<a href="https://instagram.com/i_am_nitin999"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="40"/></a>&nbsp;
+<a href="https://leetcode.com/ozzy_999"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="40"/></a>&nbsp;
+<a href="https://codechef.com/users/ozzy_999"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="40"/></a>&nbsp;
+<a href="https://codeforces.com/profile/ns0779687"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="40"/></a>
 
 </div>
+
 
 <br/>
 
@@ -103,22 +84,10 @@
 
 <div align="center">
 
-<img width="420"
- src="https://YOUR-VERCEL-URL/api?username=nitin-999-code&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img width="320"
- src="https://YOUR-VERCEL-URL/api/top-langs/?username=nitin-999-code&layout=compact&theme=tokyonight&hide_border=true"/>
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=nitin-999-code&theme=radical&cache_seconds=1)](https://git.io/streak-stats)
+| ![Graph](https://github-readme-activity-graph.vercel.app/graph?username=nitin-999-code&theme=tokyo-night&bg_color=0D0D0D&color=00E5FF&line=FF6B35&point=FFFFFF&area=true&hide_border=true) | ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nitin-999-code&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=00E5FF&text_color=FFFFFF&langs_count=6) | ![Streak](https://streak-stats.demolab.com?user=nitin-999-code&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=00E5FF&ring=FF6B35&fire=FF6B35&currStreakLabel=00E5FF) |
+|:-:|:-:|:-:|
 
 </div>
-
-</div>
-
- 
-<br/>
 
 <!-- Trophy Section -->
 
@@ -132,8 +101,7 @@
 
 <div align="center">
   
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=800&color=00FF41&background=00000000&center=true&vCenter=true&width=600&lines=💡+Code+is+like+humor.+When+you+have+to+explain+it,+it's+bad.💡" alt="Quote"/>
+
 
 **[🗿🗿🗿🗿](https://github.com/nitin-999-code)**
 
