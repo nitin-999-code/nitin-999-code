@@ -51,18 +51,25 @@ def build_svg(grid: list[str]) -> str:
     """Build an SVG string with row-by-row reveal animation."""
     num_rows = len(grid)
     line_h = FONT_SIZE * LINE_HEIGHT
-    svg_width = int(COLS * CHAR_WIDTH) + 20
-    svg_height = int(num_rows * line_h) + 20
+    
+    # Terminal UI Constants
+    PADDING = 24
+    TITLE_BAR_H = 36
+    CARD_W = int(COLS * CHAR_WIDTH) + PADDING * 2
+    content_h = int(num_rows * line_h)
+    svg_height = TITLE_BAR_H + PADDING * 2 + content_h
+    
     total_anim_time = num_rows * ANIMATION_ROW_DELAY + 0.5
 
     lines = []
     lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" '
-                 f'viewBox="0 0 {svg_width} {svg_height}" '
-                 f'width="{svg_width}" height="{svg_height}">')
+                 f'viewBox="0 0 {CARD_W} {svg_height}" '
+                 f'width="{CARD_W}" height="{svg_height}">')
 
     # Styles
     lines.append("<style>")
-    lines.append(f"  svg {{ background: {BG_COLOR}; }}")
+    lines.append(f"  svg {{ background: transparent; }}")
+    lines.append(f"  .card-bg {{ fill: {BG_COLOR}; stroke: #30363d; stroke-width: 1; rx: 10; }}")
     lines.append(f"  text {{")
     lines.append(f"    font-family: 'Courier New', 'Fira Code', monospace;")
     lines.append(f"    font-size: {FONT_SIZE}px;")
@@ -70,38 +77,60 @@ def build_svg(grid: list[str]) -> str:
     lines.append(f"    white-space: pre;")
     lines.append(f"    dominant-baseline: text-before-edge;")
     lines.append(f"  }}")
-    # Row animation keyframes
-    lines.append(f"  @keyframes reveal {{")
-    lines.append(f"    0%   {{ opacity: 0; }}") 
-    lines.append(f"    100% {{ opacity: 1; }}")
-    lines.append(f"  }}")
-    # Cursor blink (plays during reveal, then vanishes)
-    lines.append(f"  @keyframes cursorFade {{")
-    lines.append(f"    0%, 50% {{ opacity: 1; }}")
-    lines.append(f"    51%, 100% {{ opacity: 0; }}")
-    lines.append(f"  }}")
-    # Per-row animation classes
+    lines.append(f"  .title {{ fill: #58a6ff; font-size: 12px; font-family: 'Fira Code', 'Courier New', monospace; }}")
+    duration = 8.0
     for i in range(num_rows):
         delay = i * ANIMATION_ROW_DELAY
-        lines.append(f"  .r{i} {{ opacity: 0; animation: reveal 0.15s ease-out {delay:.3f}s forwards; }}")
+        start_pct = (delay / duration) * 100
+        end_pct = ((delay + 0.15) / duration) * 100
+        lines.append(f"  @keyframes rAnim{i} {{")
+        lines.append(f"    0%, {start_pct:.2f}% {{ opacity: 0; }}")
+        lines.append(f"    {end_pct:.2f}%, 95% {{ opacity: 1; }}")
+        lines.append(f"    96%, 100% {{ opacity: 0; }}")
+        lines.append(f"  }}")
+        lines.append(f"  .r{i} {{ opacity: 0; animation: rAnim{i} {duration}s ease-out infinite; }}")
+        
+    cursor_appear = (num_rows - 1) * ANIMATION_ROW_DELAY
+    c_start = (cursor_appear / duration) * 100
+    c_b1 = min(c_start + 2, 95)
+    c_b2 = min(c_start + 4, 95)
+    c_b3 = min(c_start + 6, 95)
+    c_b4 = min(c_start + 8, 95)
+    lines.append(f"  @keyframes cursorAnim {{")
+    lines.append(f"    0%, {c_start:.2f}% {{ opacity: 0; }}")
+    lines.append(f"    {c_start:.2f}%, {c_b1:.2f}% {{ opacity: 1; }}")
+    lines.append(f"    {c_b1:.2f}%, {c_b2:.2f}% {{ opacity: 0; }}")
+    lines.append(f"    {c_b2:.2f}%, {c_b3:.2f}% {{ opacity: 1; }}")
+    lines.append(f"    {c_b3:.2f}%, {c_b4:.2f}% {{ opacity: 0; }}")
+    lines.append(f"    {c_b4:.2f}%, 95% {{ opacity: 1; }}")
+    lines.append(f"    96%, 100% {{ opacity: 0; }}")
+    lines.append(f"  }}")
+    lines.append(f"  .cursor {{ opacity: 0; animation: cursorAnim {duration}s infinite; }}")
     lines.append("</style>")
 
+    # Card background
+    lines.append(f'<rect class="card-bg" x="1" y="1" width="{CARD_W - 2}" height="{svg_height - 2}" />')
+
+    # Title bar dots
+    dot_y = 16
+    lines.append(f'<circle cx="18" cy="{dot_y}" r="6" fill="#ff5f56" />')
+    lines.append(f'<circle cx="38" cy="{dot_y}" r="6" fill="#ffbd2e" />')
+    lines.append(f'<circle cx="58" cy="{dot_y}" r="6" fill="#27c93f" />')
+    lines.append(f'<text class="title" x="{CARD_W // 2}" y="10" text-anchor="middle">portrait — bash</text>')
+
     # Render each row as a <text> element
+    content_y_start = TITLE_BAR_H + PADDING
     for i, row_text in enumerate(grid):
-        y = 10 + i * line_h
+        y = content_y_start + i * line_h
         escaped = html.escape(row_text, quote=True)
-        lines.append(f'<text x="10" y="{y:.1f}" class="r{i}">{escaped}</text>')
+        lines.append(f'<text x="{PADDING}" y="{y:.1f}" class="r{i}">{escaped}</text>')
 
     # Terminal cursor that follows the last revealed row
-    cursor_x = 10
-    cursor_y = 10 + (num_rows - 1) * line_h
+    cursor_x = PADDING
+    cursor_y = content_y_start + (num_rows - 1) * line_h
     cursor_appear = (num_rows - 1) * ANIMATION_ROW_DELAY
-    lines.append(f'<rect x="{cursor_x}" y="{cursor_y:.1f}" width="{CHAR_WIDTH}" height="{FONT_SIZE}" '
-                 f'fill="#58a6ff" opacity="0">')
-    lines.append(f'  <animate attributeName="opacity" values="0;1;1;0" '
-                 f'keyTimes="0;0.01;0.5;1" dur="1s" begin="{cursor_appear:.2f}s" '
-                 f'fill="freeze" />')
-    lines.append(f'</rect>')
+    lines.append(f'<rect class="cursor" x="{cursor_x}" y="{cursor_y:.1f}" '
+                 f'width="{CHAR_WIDTH}" height="{FONT_SIZE}" fill="#58a6ff"></rect>')
 
     lines.append("</svg>")
     return "\n".join(lines)

@@ -8,24 +8,90 @@
   .prompt { fill: #39d353; }
   .sep { fill: #30363d; }
   .title { fill: #58a6ff; font-size: 12px; }
-  @keyframes lineIn {
-    0%   { opacity: 0; transform: translateY(6px); }
-    100% { opacity: 1; transform: translateY(0); }
+  @keyframes lnAnim0 {
+    0%, 3.75% { opacity: 0; transform: translateY(6px); }
+    7.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
   }
-  .ln0 { opacity: 0; animation: lineIn 0.3s ease-out 0.30s forwards; }
-  .ln1 { opacity: 0; animation: lineIn 0.3s ease-out 0.42s forwards; }
-  .ln2 { opacity: 0; animation: lineIn 0.3s ease-out 0.54s forwards; }
-  .ln3 { opacity: 0; animation: lineIn 0.3s ease-out 0.66s forwards; }
-  .ln4 { opacity: 0; animation: lineIn 0.3s ease-out 0.78s forwards; }
-  .ln5 { opacity: 0; animation: lineIn 0.3s ease-out 0.90s forwards; }
-  .ln6 { opacity: 0; animation: lineIn 0.3s ease-out 1.02s forwards; }
-  .ln7 { opacity: 0; animation: lineIn 0.3s ease-out 1.14s forwards; }
-  .ln8 { opacity: 0; animation: lineIn 0.3s ease-out 1.26s forwards; }
-  .ln9 { opacity: 0; animation: lineIn 0.3s ease-out 1.38s forwards; }
-  .ln10 { opacity: 0; animation: lineIn 0.3s ease-out 1.50s forwards; }
-  .ln11 { opacity: 0; animation: lineIn 0.3s ease-out 1.62s forwards; }
-  .ln12 { opacity: 0; animation: lineIn 0.3s ease-out 1.74s forwards; }
-  .ln13 { opacity: 0; animation: lineIn 0.3s ease-out 1.86s forwards; }
+  .ln0 { opacity: 0; animation: lnAnim0 8.0s ease-out infinite; }
+  @keyframes lnAnim1 {
+    0%, 5.25% { opacity: 0; transform: translateY(6px); }
+    9.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln1 { opacity: 0; animation: lnAnim1 8.0s ease-out infinite; }
+  @keyframes lnAnim2 {
+    0%, 6.75% { opacity: 0; transform: translateY(6px); }
+    10.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln2 { opacity: 0; animation: lnAnim2 8.0s ease-out infinite; }
+  @keyframes lnAnim3 {
+    0%, 8.25% { opacity: 0; transform: translateY(6px); }
+    12.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln3 { opacity: 0; animation: lnAnim3 8.0s ease-out infinite; }
+  @keyframes lnAnim4 {
+    0%, 9.75% { opacity: 0; transform: translateY(6px); }
+    13.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln4 { opacity: 0; animation: lnAnim4 8.0s ease-out infinite; }
+  @keyframes lnAnim5 {
+    0%, 11.25% { opacity: 0; transform: translateY(6px); }
+    15.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln5 { opacity: 0; animation: lnAnim5 8.0s ease-out infinite; }
+  @keyframes lnAnim6 {
+    0%, 12.75% { opacity: 0; transform: translateY(6px); }
+    16.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln6 { opacity: 0; animation: lnAnim6 8.0s ease-out infinite; }
+  @keyframes lnAnim7 {
+    0%, 14.25% { opacity: 0; transform: translateY(6px); }
+    18.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln7 { opacity: 0; animation: lnAnim7 8.0s ease-out infinite; }
+  @keyframes lnAnim8 {
+    0%, 15.75% { opacity: 0; transform: translateY(6px); }
+    19.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln8 { opacity: 0; animation: lnAnim8 8.0s ease-out infinite; }
+  @keyframes lnAnim9 {
+    0%, 17.25% { opacity: 0; transform: translateY(6px); }
+    21.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln9 { opacity: 0; animation: lnAnim9 8.0s ease-out infinite; }
+  @keyframes lnAnim10 {
+    0%, 18.75% { opacity: 0; transform: translateY(6px); }
+    22.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln10 { opacity: 0; animation: lnAnim10 8.0s ease-out infinite; }
+  @keyframes lnAnim11 {
+    0%, 20.25% { opacity: 0; transform: translateY(6px); }
+    24.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln11 { opacity: 0; animation: lnAnim11 8.0s ease-out infinite; }
+  @keyframes lnAnim12 {
+    0%, 21.75% { opacity: 0; transform: translateY(6px); }
+    25.50%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln12 { opacity: 0; animation: lnAnim12 8.0s ease-out infinite; }
+  @keyframes lnAnim13 {
+    0%, 23.25% { opacity: 0; transform: translateY(6px); }
+    27.00%, 95% { opacity: 1; transform: translateY(0); }
+    96%, 100% { opacity: 0; transform: translateY(6px); }
+  }
+  .ln13 { opacity: 0; animation: lnAnim13 8.0s ease-out infinite; }
 </style>
 <rect class="card-bg" x="1" y="1" width="478" height="422" />
 <circle cx="18" cy="16" r="6" fill="#ff5f56" />

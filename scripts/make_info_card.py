@@ -85,13 +85,17 @@ def build_info_card() -> str:
     parts.append(f"  .title {{ fill: {TITLE_COLOR}; font-size: 12px; }}")
 
     if not STATIC:
-        parts.append(f"  @keyframes lineIn {{")
-        parts.append(f"    0%   {{ opacity: 0; transform: translateY(6px); }}")
-        parts.append(f"    100% {{ opacity: 1; transform: translateY(0); }}")
-        parts.append(f"  }}")
+        duration = 8.0
         for i in range(num_lines):
             delay = 0.3 + i * 0.12
-            parts.append(f"  .ln{i} {{ opacity: 0; animation: lineIn 0.3s ease-out {delay:.2f}s forwards; }}")
+            start_pct = (delay / duration) * 100
+            end_pct = ((delay + 0.3) / duration) * 100
+            parts.append(f"  @keyframes lnAnim{i} {{")
+            parts.append(f"    0%, {start_pct:.2f}% {{ opacity: 0; transform: translateY(6px); }}")
+            parts.append(f"    {end_pct:.2f}%, 95% {{ opacity: 1; transform: translateY(0); }}")
+            parts.append(f"    96%, 100% {{ opacity: 0; transform: translateY(6px); }}")
+            parts.append(f"  }}")
+            parts.append(f"  .ln{i} {{ opacity: 0; animation: lnAnim{i} {duration}s ease-out infinite; }}")
     else:
         for i in range(num_lines):
             parts.append(f"  .ln{i} {{ opacity: 1; }}")

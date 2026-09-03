@@ -2,10 +2,6 @@
 
 <h3><code>nitin@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
-
-<br><br>
-
 <h3><code>nitin@github ~ $ whoami</code></h3>
 
 <table>
@@ -18,6 +14,8 @@
 </td>
 </tr>
 </table>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
 
 <br>
 

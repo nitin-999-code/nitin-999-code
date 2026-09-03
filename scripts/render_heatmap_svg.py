@@ -114,7 +114,10 @@ def build_heatmap_svg(data: dict) -> str:
                  f'viewBox="0 0 {svg_w} {svg_h}" '
                  f'width="{svg_w}" height="{svg_h}">')
 
-    # ── Styles ────────────────────────────────────────────────────
+    # ── Cells & Animations ───────────────────────────────────────
+    max_diag = num_weeks + 6  # max diagonal index
+    duration = 8.0
+    
     parts.append("<style>")
     parts.append(f"  svg {{ background: {BG}; }}")
     parts.append(f"  text {{ font-family: {FONT}; fill: {TEXT_COLOR}; }}")
@@ -122,11 +125,21 @@ def build_heatmap_svg(data: dict) -> str:
     parts.append(f"  .label {{ font-size: 11px; fill: {LABEL_COLOR}; }}")
     parts.append(f"  .stat {{ font-size: 12px; fill: {TEXT_COLOR}; }}")
     parts.append(f"  .stat-val {{ fill: #c9d1d9; font-weight: 600; }}")
-    parts.append(f"  @keyframes cellPop {{")
-    parts.append(f"    0%   {{ opacity: 0; transform: scale(0); }}")
-    parts.append(f"    80%  {{ opacity: 1; transform: scale(1.1); }}")
-    parts.append(f"    100% {{ opacity: 1; transform: scale(1); }}")
-    parts.append(f"  }}")
+    
+    # Generate per-diagonal keyframes for 8-second cycle
+    for diag in range(max_diag):
+        delay = diag * ANIMATION_WAVE_DELAY
+        start_pct = (delay / duration) * 100
+        pop1_pct = ((delay + 0.20) / duration) * 100
+        pop2_pct = ((delay + 0.25) / duration) * 100
+        
+        parts.append(f"  @keyframes pop{diag} {{")
+        parts.append(f"    0%, {start_pct:.2f}% {{ opacity: 0; transform: scale(0); }}")
+        parts.append(f"    {pop1_pct:.2f}% {{ opacity: 1; transform: scale(1.1); }}")
+        parts.append(f"    {pop2_pct:.2f}%, 95% {{ opacity: 1; transform: scale(1); }}")
+        parts.append(f"    96%, 100% {{ opacity: 0; transform: scale(0); }}")
+        parts.append(f"  }}")
+        
     parts.append("</style>")
 
     # ── Day labels (Mon, Wed, Fri) ────────────────────────────────
@@ -150,19 +163,17 @@ def build_heatmap_svg(data: dict) -> str:
                          f'{month_names[first_day.month - 1]}</text>')
 
     # ── Cells ─────────────────────────────────────────────────────
-    max_diag = num_weeks + 6  # max diagonal index
     for wi, week in enumerate(weeks):
         for di, day in enumerate(week):
             x = MARGIN_LEFT + wi * (CELL + GAP)
             y = MARGIN_TOP + di * (CELL + GAP)
             color = PALETTE[min(day["level"], len(PALETTE) - 1)]
             diag = wi + di
-            delay = diag * ANIMATION_WAVE_DELAY
 
             parts.append(
                 f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
                 f'rx="{RADIUS}" ry="{RADIUS}" fill="{color}" '
-                f'opacity="0" style="animation: cellPop 0.25s ease-out {delay:.3f}s forwards; '
+                f'opacity="0" style="animation: pop{diag} {duration}s ease-out infinite; '
                 f'transform-origin: {x + CELL/2}px {y + CELL/2}px;">'
                 f'<title>{day["date"]}: {day["count"]} contribution{"s" if day["count"] != 1 else ""}</title>'
                 f'</rect>'
