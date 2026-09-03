@@ -1,0 +1,9 @@
+# === Daily heatmap workflow (lightweight) ===
+requests>=2.31
+beautifulsoup4>=4.12
+
+# === Local portrait generation (not needed by daily workflow) ===
+pillow>=10.0
+numpy>=1.26
+opencv-python>=4.8
+rembg>=2.0

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 561 503" width="561" height="503">
+<style>
+  svg { background: #0d1117; }
+  text {
+    font-family: 'Courier New', 'Fira Code', monospace;
+    font-size: 10px;
+    fill: #c9d1d9;
+    white-space: pre;
+    dominant-baseline: text-before-edge;
+  }
+  @keyframes reveal {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes cursorFade {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+  .r0 { opacity: 0; animation: reveal 0.15s ease-out 0.000s forwards; }
+  .r1 { opacity: 0; animation: reveal 0.15s ease-out 0.040s forwards; }
+  .r2 { opacity: 0; animation: reveal 0.15s ease-out 0.080s forwards; }
+  .r3 { opacity: 0; animation: reveal 0.15s ease-out 0.120s forwards; }
+  .r4 { opacity: 0; animation: reveal 0.15s ease-out 0.160s forwards; }
+  .r5 { opacity: 0; animation: reveal 0.15s ease-out 0.200s forwards; }
+  .r6 { opacity: 0; animation: reveal 0.15s ease-out 0.240s forwards; }
+  .r7 { opacity: 0; animation: reveal 0.15s ease-out 0.280s forwards; }
+  .r8 { opacity: 0; animation: reveal 0.15s ease-out 0.320s forwards; }
+  .r9 { opacity: 0; animation: reveal 0.15s ease-out 0.360s forwards; }
+  .r10 { opacity: 0; animation: reveal 0.15s ease-out 0.400s forwards; }
+  .r11 { opacity: 0; animation: reveal 0.15s ease-out 0.440s forwards; }
+  .r12 { opacity: 0; animation: reveal 0.15s ease-out 0.480s forwards; }
+  .r13 { opacity: 0; animation: reveal 0.15s ease-out 0.520s forwards; }
+  .r14 { opacity: 0; animation: reveal 0.15s ease-out 0.560s forwards; }
+  .r15 { opacity: 0; animation: reveal 0.15s ease-out 0.600s forwards; }
+  .r16 { opacity: 0; animation: reveal 0.15s ease-out 0.640s forwards; }
+  .r17 { opacity: 0; animation: reveal 0.15s ease-out 0.680s forwards; }
+  .r18 { opacity: 0; animation: reveal 0.15s ease-out 0.720s forwards; }
+  .r19 { opacity: 0; animation: reveal 0.15s ease-out 0.760s forwards; }
+  .r20 { opacity: 0; animation: reveal 0.15s ease-out 0.800s forwards; }
+  .r21 { opacity: 0; animation: reveal 0.15s ease-out 0.840s forwards; }
+  .r22 { opacity: 0; animation: reveal 0.15s ease-out 0.880s forwards; }
+  .r23 { opacity: 0; animation: reveal 0.15s ease-out 0.920s forwards; }
+  .r24 { opacity: 0; animation: reveal 0.15s ease-out 0.960s forwards; }
+  .r25 { opacity: 0; animation: reveal 0.15s ease-out 1.000s forwards; }
+  .r26 { opacity: 0; animation: reveal 0.15s ease-out 1.040s forwards; }
+  .r27 { opacity: 0; animation: reveal 0.15s ease-out 1.080s forwards; }
+  .r28 { opacity: 0; animation: reveal 0.15s ease-out 1.120s forwards; }
+  .r29 { opacity: 0; animation: reveal 0.15s ease-out 1.160s forwards; }
+  .r30 { opacity: 0; animation: reveal 0.15s ease-out 1.200s forwards; }
+  .r31 { opacity: 0; animation: reveal 0.15s ease-out 1.240s forwards; }
+  .r32 { opacity: 0; animation: reveal 0.15s ease-out 1.280s forwards; }
+  .r33 { opacity: 0; animation: reveal 0.15s ease-out 1.320s forwards; }
+  .r34 { opacity: 0; animation: reveal 0.15s ease-out 1.360s forwards; }
+  .r35 { opacity: 0; animation: reveal 0.15s ease-out 1.400s forwards; }
+  .r36 { opacity: 0; animation: reveal 0.15s ease-out 1.440s forwards; }
+  .r37 { opacity: 0; animation: reveal 0.15s ease-out 1.480s forwards; }
+  .r38 { opacity: 0; animation: reveal 0.15s ease-out 1.520s forwards; }
+  .r39 { opacity: 0; animation: reveal 0.15s ease-out 1.560s forwards; }
+  .r40 { opacity: 0; animation: reveal 0.15s ease-out 1.600s forwards; }
+  .r41 { opacity: 0; animation: reveal 0.15s ease-out 1.640s forwards; }
+</style>
+<text x="10" y="10.0" class="r0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%sccccs#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="21.5" class="r1">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s==+==+:`--=+++cccc#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="33.0" class="r2">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##ssc:`::``:``-=*=:````-=+s%@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="44.5" class="r3">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%c**=--:::`-----==-:``  .. ..`:-==+++s%@#%@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="56.0" class="r4">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=:````:`.``````::--::-```.`::`...::`..`+c+*s@@@@@@@@@@@@@@@@</text>
+<text x="10" y="67.5" class="r5">@@@@@@@@@@@@@@@@@@@@@@@@@@@@s``::`.``...:`.``...   .`-=---=+=---::..```.::+s%@@@@@@@@@@@@@</text>
+<text x="10" y="79.0" class="r6">@@@@@@@@@@@@@@@@@@@@@@@@@@%c:``````.:.`````````   ..`:-++--:.::`--.  .:`.=--*s%@@@@@@@@@@@</text>
+<text x="10" y="90.5" class="r7">@@@@@@@@@@@@@@@@@@@@@@@@@@s```...`:``:`````.:---:`.`:``-=-+=``..:`..``-``=:=+=+%@@@@@@@@@@</text>
+<text x="10" y="102.0" class="r8">@@@@@@@@@@@@@@@@@@@@@@@@@@@#-`..  ....`````:```::```...`:-:`..    ``=*:...`:::=c@@@@@@@@@@</text>
+<text x="10" y="113.5" class="r9">@@@@@@@@@@@@@@@@@@@@@@@@@@@@+:````     .:+++=-:```:--:```:--`.   ..`-:.  .```--=%@@@@@@@@@</text>
+<text x="10" y="125.0" class="r10">@@@@@@@@@@@@@@@@@@@@@@@@@@@=`...`. ...:=+csss**ccccc*++-+***-:``:`.    ..```-===@@@@@@@@@@</text>
+<text x="10" y="136.5" class="r11">@@@@@@@@@@@@@@@@@@@@@@@@@@%-... .....`====-===+*ccss##ccs##scsc*++:`.  .::`.:--#@@@@@@@@@@</text>
+<text x="10" y="148.0" class="r12">@@@@@@@@@@@@@@@@@@@@@@@@@@s:--`.....`+ccc*+=--:````:=cs%@%%@@@%scc+: ..``-::--c@@@@@@@@@@@</text>
+<text x="10" y="159.5" class="r13">@@@@@@@@@@@@@@@@@@@@@@@@@@@c++*-`..`=csss+--==+=-:-:-=c#%%#c++==+=+- .````:=+s@@@@@@@@@@@@</text>
+<text x="10" y="171.0" class="r14">@@@@@@@@@@@@@@@@@@@@@@@@@@@s+#%#:.-*cc*cc+---::+-::-++s%%+:````:```` `=ccc%@@@@@@@@@@@@@@@</text>
+<text x="10" y="182.5" class="r15">@@@@@@@@@@@@@@@@@@@@@@@@@@@#c@#c``+c*+s##%##ssc*+=:::=s@#:::`:===+- `+%@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="194.0" class="r16">@@@@@@@@@@@@@@@@@@@@@@@@@@@@c#c=.:+*+*ss#%%%%%##sc*==+s@%++=--=:=+.*%@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="205.5" class="r17">@@@@@@@@@@@@@@@@@@@@@@@@@@@@c:=:.-=++=ccs%@@@@%%s==-=*#@%c#%####s=*@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="217.0" class="r18">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  `:=-==+*cs#%%%#c:=*=*s%@@#c%%%#s+s@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="228.5" class="r19">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-.::-==+***cs##sc*===+=*ssscs##s*+s@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="240.0" class="r20">@@@@@@@@@@@@@@@@@@#sc**+++++**+.-=-++***cc+=-:-:`. .::::*#%sc*+#@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="251.5" class="r21">@@@@@@@@@@@@@@@%=:.             :===+***c+`....``..`:. .-*cc*s@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="263.0" class="r22">@@@@@@@@@@@@@@s:`:.   .```````..---=+******cc*+==+=++=:`..=c-+ccs#%@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="274.5" class="r23">@@@@@@@@@@@@@#::::-:..:-`....  .=+-:-+*ccssss##s*+=-+*cc*++`     ..`-+s@@@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="286.0" class="r24">@@@@@@@@@@@#+:`::----::``   .. `+**+:`:-c#%%%%@@@@@%%%ss+-:`.         `-s@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="297.5" class="r25">@@@@@@@@@%+``:``::::----:`... .=+**cc=:``-=+++cs##ssssc: .:==:      .:-:=@@@@@@@@@@@@@@@@@</text>
+<text x="10" y="309.0" class="r26">@@@@@@@@%-`:::::::`::::----:``-=++*cssc=--:````:----=*+  :---=: .``:----=s@@@@@@@@@@@@@@@@</text>
+<text x="10" y="320.5" class="r27">@@@@@@@@c.``:------:::``:::--::--=+csssc***+=---=*ccs*:.::::::-:-==------=#@@@@@@@@@@@@@@@</text>
+<text x="10" y="332.0" class="r28">@@@%s*+=-``....`:---=---::::::::::-=+s#sccc***cs%%#c=:`:---======--:::----+@@@@@@@@@@@@@@@</text>
+<text x="10" y="343.5" class="r29">*=-:`````:-::`..  ..``::-----:```:`.`-c#scccs###c+=-------==----:::-:::``:c%%@@@@@@@@@@@@@</text>
+<text x="10" y="355.0" class="r30">:``:``````:-:```.```.  ....``:::.`:.`..-*##s*+=::`:-`````............```::::-=+*c#%@@@@@@@</text>
+<text x="10" y="366.5" class="r31">--:::`::`..:-:`````::`..`..`.... `-.`::`.--`..... -:.```... .....  `:::::`..``::::-=*s%@@@</text>
+<text x="10" y="378.0" class="r32">`---:::::`.`--:`````::`..```````.:-.``:--:``......--`:::-:`:-::`..`:--::`...``:-:`.`-=+*#@</text>
+<text x="10" y="389.5" class="r33">:`-=--:::`.`--:``````:::````.....:- ..`:-=---::``.:=:-:::`:-:`..`:---::`....`:--:..:--==`*</text>
+<text x="10" y="401.0" class="r34">```==-:::`..:--:``````::::````...--.`.``:-=------.`=`:::`:-:`.`:--:--:`....`:-=:..:=--=+``</text>
+<text x="10" y="412.5" class="r35">`..-==-::`..:--:```````:::::::`..-:`-::`:------=:.:=::::::```::--::-:``..```-+:. `=--:=+`.</text>
+<text x="10" y="424.0" class="r36">-:.`==-::`..:--::``````::--:::`..-`.:::::-------.`:=:``::``:::::::::-`..```:==. `--:`.=+..</text>
+<text x="10" y="435.5" class="r37">`:`.-==-:...:---:``````:::--:::..-..``:::-------`.`-:`:`::::::-=+-`c+-+-`::-+` .-=:..-+- `</text>
+<text x="10" y="447.0" class="r38">--:.`==-:...::--::`````:::----:.`-`````::::::---:..`-`::::::::*s+`**.=*c-:-==. :=-..-++..-</text>
+<text x="10" y="458.5" class="r39">`:-:.-=-:...::::::``::`::::---: ::`:````::-::::::`. -``:::::```:-=c``=:`:--=- `=- .-=+: :=</text>
+<text x="10" y="470.0" class="r40">-:``.`--:. .:::::::::::`::::--: -:`:````::::::::::: ::`::::``:```:`````:--=+. :=..-==:.:=+</text>
+<text x="10" y="481.5" class="r41">==-:. :-:. .:::::::::::::::---:.-`::````::::::::::-.`-`::::::``::````::--=== .-- -=-:.:==+</text>
+<rect x="10" y="481.5" width="6.02" height="10" fill="#58a6ff" opacity="0">
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.5;1" dur="1s" begin="1.64s" fill="freeze" />
+</rect>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 424" width="480" height="424">
+<style>
+  svg { background: transparent; }
+  .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 10; }
+  text { font-family: 'Fira Code', 'Courier New', 'Consolas', monospace; font-size: 14px; dominant-baseline: text-before-edge; }
+  .key { fill: #8b949e; }
+  .val { fill: #c9d1d9; }
+  .prompt { fill: #39d353; }
+  .sep { fill: #30363d; }
+  .title { fill: #58a6ff; font-size: 12px; }
+  @keyframes lineIn {
+    0%   { opacity: 0; transform: translateY(6px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .ln0 { opacity: 0; animation: lineIn 0.3s ease-out 0.30s forwards; }
+  .ln1 { opacity: 0; animation: lineIn 0.3s ease-out 0.42s forwards; }
+  .ln2 { opacity: 0; animation: lineIn 0.3s ease-out 0.54s forwards; }
+  .ln3 { opacity: 0; animation: lineIn 0.3s ease-out 0.66s forwards; }
+  .ln4 { opacity: 0; animation: lineIn 0.3s ease-out 0.78s forwards; }
+  .ln5 { opacity: 0; animation: lineIn 0.3s ease-out 0.90s forwards; }
+  .ln6 { opacity: 0; animation: lineIn 0.3s ease-out 1.02s forwards; }
+  .ln7 { opacity: 0; animation: lineIn 0.3s ease-out 1.14s forwards; }
+  .ln8 { opacity: 0; animation: lineIn 0.3s ease-out 1.26s forwards; }
+  .ln9 { opacity: 0; animation: lineIn 0.3s ease-out 1.38s forwards; }
+  .ln10 { opacity: 0; animation: lineIn 0.3s ease-out 1.50s forwards; }
+  .ln11 { opacity: 0; animation: lineIn 0.3s ease-out 1.62s forwards; }
+  .ln12 { opacity: 0; animation: lineIn 0.3s ease-out 1.74s forwards; }
+  .ln13 { opacity: 0; animation: lineIn 0.3s ease-out 1.86s forwards; }
+</style>
+<rect class="card-bg" x="1" y="1" width="478" height="422" />
+<circle cx="18" cy="16" r="6" fill="#ff5f56" />
+<circle cx="38" cy="16" r="6" fill="#ffbd2e" />
+<circle cx="58" cy="16" r="6" fill="#27c93f" />
+<text class="title" x="240" y="10" text-anchor="middle">nitin-999-code — bash</text>
+<text class="prompt ln0" x="24" y="60">nitin-999-code@github:~$ whoami</text>
+<text class="ln2" x="24" y="108"><tspan class="key">Name      </tspan><tspan class="val"> : Nitin Sahu</tspan></text>
+<text class="ln3" x="24" y="132"><tspan class="key">User      </tspan><tspan class="val"> : @nitin-999-code</tspan></text>
+<text class="ln4" x="24" y="156"><tspan class="key">Role      </tspan><tspan class="val"> : Software Developer</tspan></text>
+<text class="ln5" x="24" y="180"><tspan class="key">Focus     </tspan><tspan class="val"> : AI + Full Stack Development</tspan></text>
+<text class="ln6" x="24" y="204"><tspan class="key">Stack     </tspan><tspan class="val"> : Python · JavaScript · React · Node.js</tspan></text>
+<text class="ln7" x="24" y="228"><tspan class="key">Projects  </tspan><tspan class="val"> : Building things that matter</tspan></text>
+<text class="ln8" x="24" y="252"><tspan class="key">Learning  </tspan><tspan class="val"> : System Design · Cloud · AI/ML</tspan></text>
+<text class="ln9" x="24" y="276"><tspan class="key">Location  </tspan><tspan class="val"> : India</tspan></text>
+<text class="ln10" x="24" y="300"><tspan class="key">Status    </tspan><tspan class="val"> : 🟢 Building</tspan></text>
+<text class="sep ln12" x="24" y="348">────────────────────────────────</text>
+<text class="prompt ln13" x="24" y="372">nitin-999-code@github:~$ █</text>
+</svg>
