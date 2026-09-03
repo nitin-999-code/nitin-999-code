@@ -28,7 +28,7 @@
     <img
       src="https://holopin.me/nitin999code"
       alt="@nitin999code's Holopin badges"
-      width="480"
+      width="900"
     />
   </a>
 </div>
