@@ -1,19 +1,19 @@
 {
   "username": "nitin-999-code",
-  "fetched_at": "2026-11-21T13:38:39.428835+00:00",
+  "fetched_at": "2026-11-22T13:31:07.672949+00:00",
   "stats": {
-    "total_contributions": 248,
-    "days_tracked": 371,
-    "active_days": 183,
+    "total_contributions": 241,
+    "days_tracked": 365,
+    "active_days": 176,
     "current_streak": 0,
     "longest_streak": 131,
     "best_day": {
       "date": "2026-02-18",
       "count": 4
     },
-    "avg_per_active_day": 1.36,
+    "avg_per_active_day": 1.37,
     "monthly_totals": {
-      "2025-11": 16,
+      "2025-11": 9,
       "2025-12": 30,
       "2026-01": 32,
       "2026-02": 40,
@@ -29,41 +29,6 @@
     }
   },
   "daily": [
-    {
-      "date": "2025-11-16",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-17",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-18",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-19",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-20",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-21",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-22",
-      "count": 1,
-      "level": 1
-    },
     {
       "date": "2025-11-23",
       "count": 1,
@@ -1881,6 +1846,11 @@
     },
     {
       "date": "2026-11-21",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-22",
       "count": 0,
       "level": 0
     }
